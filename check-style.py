@@ -9,4 +9,3 @@ if result.returncode != 0:
 else:
     print("No style errors found!")
     exit(0)
-    
