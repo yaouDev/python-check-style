@@ -35,6 +35,7 @@ jobs:
 
     - name: Run style check
       run: python check_style.py
+      working-directory: ${{ github.workspace }}
 
     - name: Run tests
       run: pytest
