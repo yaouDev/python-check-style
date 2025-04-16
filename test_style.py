@@ -6,3 +6,4 @@ def test_add():
     b = random.random()
     result = a + b
     assert program.add(a, b) == result
+
